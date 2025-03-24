@@ -1,0 +1,589 @@
+{
+	"info": {
+		"_postman_id": "c62603c6-1e43-4845-a1b9-80df04395020",
+		"name": "modelingapi2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33887529"
+	},
+	"item": [
+		{
+			"name": "CreateWorkspace",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://{{base URI}}/api/{{email}}?ZOHO_ACTION=CREATEBLANKDB&ZOHO_OUTPUT_FORMAT=JSON&ZOHO_ERROR_FORMAT=JSON&authtoken=9e2c2fa3f2047803cca140c1b3b1c377&ZOHO_API_VERSION=1.0&ZOHO_DATABASE_NAME=onetwo123675&ZOHO_DATABASE_DESC=sfobayibgfrira udshfufh     hidsfhusifdhs",
+					"protocol": "https",
+					"host": [
+						"{{base URI}}"
+					],
+					"path": [
+						"api",
+						"{{email}}"
+					],
+					"query": [
+						{
+							"key": "ZOHO_ACTION",
+							"value": "CREATEBLANKDB"
+						},
+						{
+							"key": "ZOHO_OUTPUT_FORMAT",
+							"value": "JSON"
+						},
+						{
+							"key": "ZOHO_ERROR_FORMAT",
+							"value": "JSON"
+						},
+						{
+							"key": "authtoken",
+							"value": "9e2c2fa3f2047803cca140c1b3b1c377"
+						},
+						{
+							"key": "ZOHO_API_VERSION",
+							"value": "1.0"
+						},
+						{
+							"key": "ZOHO_DATABASE_NAME",
+							"value": "onetwo123675"
+						},
+						{
+							"key": "ZOHO_DATABASE_DESC",
+							"value": "sfobayibgfrira udshfufh     hidsfhusifdhs"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "copydatabase",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://{{base URI}}/api/{{email}}?ZOHO_ACTION=COPYDATABASE&ZOHO_OUTPUT_FORMAT=JSON&ZOHO_ERROR_FORMAT=JSON&authtoken=9e2c2fa3f2047803cca140c1b3b1c377&ZOHO_API_VERSION=1.0&ZOHO_DATABASE_NAME=ultimatetrainer&ZOHO_DATABASE_DESC=workspace copying&ZOHO_COPY_DB_KEY=f96e123a5c3d616516b446be44eae6c9",
+					"protocol": "https",
+					"host": [
+						"{{base URI}}"
+					],
+					"path": [
+						"api",
+						"{{email}}"
+					],
+					"query": [
+						{
+							"key": "ZOHO_ACTION",
+							"value": "COPYDATABASE"
+						},
+						{
+							"key": "ZOHO_OUTPUT_FORMAT",
+							"value": "JSON"
+						},
+						{
+							"key": "ZOHO_ERROR_FORMAT",
+							"value": "JSON"
+						},
+						{
+							"key": "authtoken",
+							"value": "9e2c2fa3f2047803cca140c1b3b1c377"
+						},
+						{
+							"key": "ZOHO_API_VERSION",
+							"value": "1.0"
+						},
+						{
+							"key": "ZOHO_DATABASE_NAME",
+							"value": "ultimatetrainer"
+						},
+						{
+							"key": "ZOHO_DATABASE_DESC",
+							"value": "workspace copying"
+						},
+						{
+							"key": "ZOHO_COPY_DB_KEY",
+							"value": "f96e123a5c3d616516b446be44eae6c9"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "dbkey",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://{{base URI}}/api/{{email}}/WS-Settings?ZOHO_ACTION=GETCOPYDBKEY&ZOHO_OUTPUT_FORMAT=JSON&ZOHO_ERROR_FORMAT=JSON&authtoken=9e2c2fa3f2047803cca140c1b3b1c377&ZOHO_API_VERSION=1.0",
+					"protocol": "https",
+					"host": [
+						"{{base URI}}"
+					],
+					"path": [
+						"api",
+						"{{email}}",
+						"WS-Settings"
+					],
+					"query": [
+						{
+							"key": "ZOHO_ACTION",
+							"value": "GETCOPYDBKEY"
+						},
+						{
+							"key": "ZOHO_OUTPUT_FORMAT",
+							"value": "JSON"
+						},
+						{
+							"key": "ZOHO_ERROR_FORMAT",
+							"value": "JSON"
+						},
+						{
+							"key": "authtoken",
+							"value": "9e2c2fa3f2047803cca140c1b3b1c377"
+						},
+						{
+							"key": "ZOHO_API_VERSION",
+							"value": "1.0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ADDCOLUMN",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://{{base URI}}/api/{{email}}/ultimatetrainer/Untitled-1?ZOHO_ACTION=ADDCOLUMN&ZOHO_OUTPUT_FORMAT=JSON&ZOHO_ERROR_FORMAT=JSON&authtoken=9e2c2fa3f2047803cca140c1b3b1c377&ZOHO_API_VERSION=1.0&ZOHO_COLUMNNAME=salary&ZOHO_DATATYPE=CURRENCY",
+					"protocol": "https",
+					"host": [
+						"{{base URI}}"
+					],
+					"path": [
+						"api",
+						"{{email}}",
+						"ultimatetrainer",
+						"Untitled-1"
+					],
+					"query": [
+						{
+							"key": "ZOHO_ACTION",
+							"value": "ADDCOLUMN"
+						},
+						{
+							"key": "ZOHO_OUTPUT_FORMAT",
+							"value": "JSON"
+						},
+						{
+							"key": "ZOHO_ERROR_FORMAT",
+							"value": "JSON"
+						},
+						{
+							"key": "authtoken",
+							"value": "9e2c2fa3f2047803cca140c1b3b1c377"
+						},
+						{
+							"key": "ZOHO_API_VERSION",
+							"value": "1.0"
+						},
+						{
+							"key": "ZOHO_COLUMNNAME",
+							"value": "salary"
+						},
+						{
+							"key": "ZOHO_DATATYPE",
+							"value": "CURRENCY"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete column",
+			"request": {
+				"method": "POST",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "RenameColumn",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://{{base URI}}/api/{{email}}/ultimatetrainer/Untitled-1?ZOHO_ACTION=RENAMECOLUMN&ZOHO_OUTPUT_FORMAT=JSON&ZOHO_ERROR_FORMAT=JSON&authtoken=9e2c2fa3f2047803cca140c1b3b1c377&ZOHO_API_VERSION=1.0&OLDCOLUMNNAME=salary&NEWCOLUMNNAME=income",
+					"protocol": "https",
+					"host": [
+						"{{base URI}}"
+					],
+					"path": [
+						"api",
+						"{{email}}",
+						"ultimatetrainer",
+						"Untitled-1"
+					],
+					"query": [
+						{
+							"key": "ZOHO_ACTION",
+							"value": "RENAMECOLUMN"
+						},
+						{
+							"key": "ZOHO_OUTPUT_FORMAT",
+							"value": "JSON"
+						},
+						{
+							"key": "ZOHO_ERROR_FORMAT",
+							"value": "JSON"
+						},
+						{
+							"key": "authtoken",
+							"value": "9e2c2fa3f2047803cca140c1b3b1c377"
+						},
+						{
+							"key": "ZOHO_API_VERSION",
+							"value": "1.0"
+						},
+						{
+							"key": "ZOHO_COLUMNNAME",
+							"value": "salary",
+							"disabled": true
+						},
+						{
+							"key": "OLDCOLUMNNAME",
+							"value": "salary"
+						},
+						{
+							"key": "NEWCOLUMNNAME",
+							"value": "income"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hide column",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://{{base URI}}/api/{{email}}/ultimatetrainer/Untitled-1?ZOHO_ACTION=HIDECOLUMN&ZOHO_OUTPUT_FORMAT=JSON&ZOHO_ERROR_FORMAT=JSON&authtoken=9e2c2fa3f2047803cca140c1b3b1c377&ZOHO_API_VERSION=1.0&ZOHO_COLUMNNAME=income",
+					"protocol": "https",
+					"host": [
+						"{{base URI}}"
+					],
+					"path": [
+						"api",
+						"{{email}}",
+						"ultimatetrainer",
+						"Untitled-1"
+					],
+					"query": [
+						{
+							"key": "ZOHO_ACTION",
+							"value": "HIDECOLUMN"
+						},
+						{
+							"key": "ZOHO_OUTPUT_FORMAT",
+							"value": "JSON"
+						},
+						{
+							"key": "ZOHO_ERROR_FORMAT",
+							"value": "JSON"
+						},
+						{
+							"key": "authtoken",
+							"value": "9e2c2fa3f2047803cca140c1b3b1c377"
+						},
+						{
+							"key": "ZOHO_API_VERSION",
+							"value": "1.0"
+						},
+						{
+							"key": "OLDCOLUMNNAME",
+							"value": "salary",
+							"disabled": true
+						},
+						{
+							"key": "NEWCOLUMNNAME",
+							"value": "income",
+							"disabled": true
+						},
+						{
+							"key": "ZOHO_COLUMNNAME",
+							"value": "income"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "show column",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://{{base URI}}/api/{{email}}/ultimatetrainer/Untitled-1?ZOHO_ACTION=SHOWCOLUMN&ZOHO_OUTPUT_FORMAT=JSON&ZOHO_ERROR_FORMAT=JSON&authtoken=9e2c2fa3f2047803cca140c1b3b1c377&ZOHO_API_VERSION=1.0&ZOHO_DATATYPE=PLAIN&ZOHO_COLUMNNAME=income",
+					"protocol": "https",
+					"host": [
+						"{{base URI}}"
+					],
+					"path": [
+						"api",
+						"{{email}}",
+						"ultimatetrainer",
+						"Untitled-1"
+					],
+					"query": [
+						{
+							"key": "ZOHO_ACTION",
+							"value": "SHOWCOLUMN"
+						},
+						{
+							"key": "ZOHO_OUTPUT_FORMAT",
+							"value": "JSON"
+						},
+						{
+							"key": "ZOHO_ERROR_FORMAT",
+							"value": "JSON"
+						},
+						{
+							"key": "authtoken",
+							"value": "9e2c2fa3f2047803cca140c1b3b1c377"
+						},
+						{
+							"key": "ZOHO_API_VERSION",
+							"value": "1.0"
+						},
+						{
+							"key": "ZOHO_DATATYPE",
+							"value": "PLAIN"
+						},
+						{
+							"key": "ZOHO_COLUMNNAME",
+							"value": "income"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Autogeneratereports",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://{{base URI}}/api/{{email}}/ultimatetrainer/Untitled-1?ZOHO_ACTION=AUTOGENREPORTS&ZOHO_OUTPUT_FORMAT=JSON&ZOHO_ERROR_FORMAT=JSON&authtoken=9e2c2fa3f2047803cca140c1b3b1c377&ZOHO_API_VERSION=1.0&ZOHO_SOURCE=COLUMN&ZOHO_CREATEAGAIN=false&ZOHO_COLUMN_NAME=income",
+					"protocol": "https",
+					"host": [
+						"{{base URI}}"
+					],
+					"path": [
+						"api",
+						"{{email}}",
+						"ultimatetrainer",
+						"Untitled-1"
+					],
+					"query": [
+						{
+							"key": "ZOHO_ACTION",
+							"value": "AUTOGENREPORTS"
+						},
+						{
+							"key": "ZOHO_OUTPUT_FORMAT",
+							"value": "JSON"
+						},
+						{
+							"key": "ZOHO_ERROR_FORMAT",
+							"value": "JSON"
+						},
+						{
+							"key": "authtoken",
+							"value": "9e2c2fa3f2047803cca140c1b3b1c377"
+						},
+						{
+							"key": "ZOHO_API_VERSION",
+							"value": "1.0"
+						},
+						{
+							"key": "ZOHO_COLUMNNAME",
+							"value": "income",
+							"disabled": true
+						},
+						{
+							"key": "ZOHO_SOURCE",
+							"value": "COLUMN"
+						},
+						{
+							"key": "ZOHO_CREATEAGAIN",
+							"value": "false"
+						},
+						{
+							"key": "ZOHO_COLUMN_NAME",
+							"value": "income"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Saveas",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://{{base URI}}/api/{{email}}/Workspace - 17?ZOHO_ACTION=SAVEAS&ZOHO_OUTPUT_FORMAT=JSON&ZOHO_ERROR_FORMAT=JSON&authtoken=9e2c2fa3f2047803cca140c1b3b1c377&ZOHO_API_VERSION=1.0&ZOHO_VIEWTOCOPY=organizations-2000000&ZOHO_NEW_VIEWNAME=Untitled-117&ZOHO_DESCRIPTION =winter&ZOHO_COPYDATA=true&ZOHO_COPYLOOKUP=true&ZOHO_FOLDERNAME=Tables %26 Reports",
+					"protocol": "https",
+					"host": [
+						"{{base URI}}"
+					],
+					"path": [
+						"api",
+						"{{email}}",
+						"Workspace - 17"
+					],
+					"query": [
+						{
+							"key": "ZOHO_ACTION",
+							"value": "SAVEAS"
+						},
+						{
+							"key": "ZOHO_OUTPUT_FORMAT",
+							"value": "JSON"
+						},
+						{
+							"key": "ZOHO_ERROR_FORMAT",
+							"value": "JSON"
+						},
+						{
+							"key": "authtoken",
+							"value": "9e2c2fa3f2047803cca140c1b3b1c377"
+						},
+						{
+							"key": "ZOHO_API_VERSION",
+							"value": "1.0"
+						},
+						{
+							"key": "ZOHO_VIEWTOCOPY",
+							"value": "organizations-2000000"
+						},
+						{
+							"key": "ZOHO_NEW_VIEWNAME",
+							"value": "Untitled-117"
+						},
+						{
+							"key": "ZOHO_DESCRIPTION ",
+							"value": "winter"
+						},
+						{
+							"key": "ZOHO_COPYDATA",
+							"value": "true"
+						},
+						{
+							"key": "ZOHO_COPYLOOKUP",
+							"value": "true"
+						},
+						{
+							"key": "ZOHO_HUGEDATACOPY ",
+							"value": "true",
+							"disabled": true
+						},
+						{
+							"key": "ZOHO_FOLDERNAME",
+							"value": "Tables %26 Reports"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateTable1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://mer-ru20-1:8443/api/vamsi.kannam@zohocorp.com/one12443?ZOHO_ACTION=CREATETABLE&ZOHO_OUTPUT_FORMAT=JSON&ZOHO_ERROR_FORMAT=JSON&authtoken=45e355a0ec328996f0587c61bff70a1c&ZOHO_API_VERSION=1.0&ZOHO_TABLE_DESIGN={   \"TABLENAME\": \"Parent\",   \"TABLEDESCRIPTION\": \"Testing Purpose parent table\",   \"COLUMNS\": [     {       \"COLUMNNAME\": \"PLAIN\",       \"DATATYPE\": \"PLAIN\",       \"DEFAULT\": null,       \"MANDATORY\": \"Yes\",       \"DESCRIPTION\": \"PLAIN des\"     },     {       \"COLUMNNAME\": \"MULTI_LINE\",       \"DATATYPE\": \"MULTI_LINE\",       \"DEFAULT\": null,       \"MANDATORY\": null,       \"DESCRIPTION\": \"MULTI_LINE des\"     },     {       \"COLUMNNAME\": \"EMAIL\",       \"DATATYPE\": \"EMAIL\",       \"DEFAULT\": null,       \"MANDATORY\": \"No\",       \"DESCRIPTION\": \"EMAIL des\"     },     {       \"COLUMNNAME\": \"NUMBER\",       \"DATATYPE\": \"NUMBER\",       \"DEFAULT\": 0,       \"MANDATORY\": \"No\",       \"DESCRIPTION\": \"NUMBER des\"     },     {       \"COLUMNNAME\": \"POSITIVE_NUMBER\",       \"DATATYPE\": \"POSITIVE_NUMBER\",       \"DEFAULT\": null,       \"MANDATORY\": \"No\",       \"DESCRIPTION\": \"POSITIVE_NUMBER des\"     },     {       \"COLUMNNAME\": \"DECIMAL_NUMBER\",       \"DATATYPE\": \"DECIMAL_NUMBER\",       \"DEFAULT\": null,       \"MANDATORY\": \"No\",       \"DESCRIPTION\": \"DECIMAL_NUMBER des\"     },     {       \"COLUMNNAME\": \"CURRENCY\",       \"DATATYPE\": \"CURRENCY\",       \"DEFAULT\": null,       \"MANDATORY\": \"No\",       \"DESCRIPTION\": \"CURRENCY des\"     },     {       \"COLUMNNAME\": \"PERCENT\",       \"DATATYPE\": \"PERCENT\",       \"DEFAULT\": null,       \"MANDATORY\": \"No\",       \"DESCRIPTION\": \"PERCENT des\"     },     {       \"COLUMNNAME\": \"DATE\",       \"DATATYPE\": \"DATE\",       \"DEFAULT\": null,       \"MANDATORY\": \"No\",       \"DESCRIPTION\": \"DATE des\"     },     {       \"COLUMNNAME\": \"BOOLEAN\",       \"DATATYPE\": \"BOOLEAN\",       \"DEFAULT\": null,       \"MANDATORY\": \"No\",       \"DESCRIPTION\": \"BOOLEAN des\"     },     {       \"COLUMNNAME\": \"URL\",       \"DATATYPE\": \"URL\",       \"DEFAULT\": null,       \"MANDATORY\": \"No\",       \"DESCRIPTION\": \"URL des\"     },     {       \"COLUMNNAME\": \"AUTO_NUMBER\",       \"DATATYPE\": \"AUTO_NUMBER\",       \"DEFAULT\": null,       \"MANDATORY\": \"No\",       \"DESCRIPTION\": \"AUTO_NUMBER des\"     }   ] }",
+					"protocol": "https",
+					"host": [
+						"mer-ru20-1"
+					],
+					"port": "8443",
+					"path": [
+						"api",
+						"vamsi.kannam@zohocorp.com",
+						"one12443"
+					],
+					"query": [
+						{
+							"key": "ZOHO_ACTION",
+							"value": "CREATETABLE"
+						},
+						{
+							"key": "ZOHO_OUTPUT_FORMAT",
+							"value": "JSON"
+						},
+						{
+							"key": "ZOHO_ERROR_FORMAT",
+							"value": "JSON"
+						},
+						{
+							"key": "authtoken",
+							"value": "45e355a0ec328996f0587c61bff70a1c"
+						},
+						{
+							"key": "ZOHO_API_VERSION",
+							"value": "1.0"
+						},
+						{
+							"key": "ZOHO_TABLE_DESIGN",
+							"value": "{   \"TABLENAME\": \"Parent\",   \"TABLEDESCRIPTION\": \"Testing Purpose parent table\",   \"COLUMNS\": [     {       \"COLUMNNAME\": \"PLAIN\",       \"DATATYPE\": \"PLAIN\",       \"DEFAULT\": null,       \"MANDATORY\": \"Yes\",       \"DESCRIPTION\": \"PLAIN des\"     },     {       \"COLUMNNAME\": \"MULTI_LINE\",       \"DATATYPE\": \"MULTI_LINE\",       \"DEFAULT\": null,       \"MANDATORY\": null,       \"DESCRIPTION\": \"MULTI_LINE des\"     },     {       \"COLUMNNAME\": \"EMAIL\",       \"DATATYPE\": \"EMAIL\",       \"DEFAULT\": null,       \"MANDATORY\": \"No\",       \"DESCRIPTION\": \"EMAIL des\"     },     {       \"COLUMNNAME\": \"NUMBER\",       \"DATATYPE\": \"NUMBER\",       \"DEFAULT\": 0,       \"MANDATORY\": \"No\",       \"DESCRIPTION\": \"NUMBER des\"     },     {       \"COLUMNNAME\": \"POSITIVE_NUMBER\",       \"DATATYPE\": \"POSITIVE_NUMBER\",       \"DEFAULT\": null,       \"MANDATORY\": \"No\",       \"DESCRIPTION\": \"POSITIVE_NUMBER des\"     },     {       \"COLUMNNAME\": \"DECIMAL_NUMBER\",       \"DATATYPE\": \"DECIMAL_NUMBER\",       \"DEFAULT\": null,       \"MANDATORY\": \"No\",       \"DESCRIPTION\": \"DECIMAL_NUMBER des\"     },     {       \"COLUMNNAME\": \"CURRENCY\",       \"DATATYPE\": \"CURRENCY\",       \"DEFAULT\": null,       \"MANDATORY\": \"No\",       \"DESCRIPTION\": \"CURRENCY des\"     },     {       \"COLUMNNAME\": \"PERCENT\",       \"DATATYPE\": \"PERCENT\",       \"DEFAULT\": null,       \"MANDATORY\": \"No\",       \"DESCRIPTION\": \"PERCENT des\"     },     {       \"COLUMNNAME\": \"DATE\",       \"DATATYPE\": \"DATE\",       \"DEFAULT\": null,       \"MANDATORY\": \"No\",       \"DESCRIPTION\": \"DATE des\"     },     {       \"COLUMNNAME\": \"BOOLEAN\",       \"DATATYPE\": \"BOOLEAN\",       \"DEFAULT\": null,       \"MANDATORY\": \"No\",       \"DESCRIPTION\": \"BOOLEAN des\"     },     {       \"COLUMNNAME\": \"URL\",       \"DATATYPE\": \"URL\",       \"DEFAULT\": null,       \"MANDATORY\": \"No\",       \"DESCRIPTION\": \"URL des\"     },     {       \"COLUMNNAME\": \"AUTO_NUMBER\",       \"DATATYPE\": \"AUTO_NUMBER\",       \"DEFAULT\": null,       \"MANDATORY\": \"No\",       \"DESCRIPTION\": \"AUTO_NUMBER des\"     }   ] }"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base URI",
+			"value": "mer-ru20-1:8443",
+			"type": "string"
+		},
+		{
+			"key": "email",
+			"value": "vamsi.kannam@zohocorp.com",
+			"type": "string"
+		}
+	]
+}
